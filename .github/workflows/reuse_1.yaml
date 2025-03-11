@@ -4,6 +4,9 @@ on:
       node-version:
         required: true
         type: string
+      secrets:
+      token:
+        required: true
  
 jobs:
   ci:
